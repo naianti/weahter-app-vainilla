@@ -5,3 +5,28 @@ header {
   font-weight: bold;
   margin: 20px;
 }
+
+body {
+  background: linear-gradient(
+    76.5deg,
+    rgb(129, 252, 255) 0.4%,
+    rgb(255, 175, 207) 49.8%,
+    rgb(255, 208, 153) 98.6%
+  );
+  margin: 40px 20px;
+  min-height: 100%;
+}
+
+.weather-app {
+  background: linear-gradient(rgb(254, 102, 125), rgb(255, 163, 117));
+  box-shadow: 0 2px 20px rgb(0 0 0 / 10%);
+  margin: 0px auto;
+  max-width: 90%;
+  padding: 30px 60px;
+}
+
+#card-temp,
+#card-city {
+  background-color: beige;
+  margin: 20px auto;
+}
